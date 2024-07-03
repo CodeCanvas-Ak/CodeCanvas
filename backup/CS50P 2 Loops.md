@@ -110,13 +110,18 @@ for i in range(len(studens)):
 - 最后，我们来学习Dictionaries（dict，一种数据结构，允许我们将键与值相关联）
 - list 是多个值的列表，而dict 将键与值相关联
 <img width="529" alt="屏幕截图 2024-07-02 235008" src="https://github.com/KKKadk/AD-forever.github.io/assets/162538427/1b940593-ccba-4ad3-83e8-587e24ac60d6">
+
+
+
 如这样一个表格，我们可以用list来实现：
 ```python 
 students = ["Hermoine", "Harry", "Ron", "Draco"]
 houses = ["Gryffindor", "Gryffindor", "Griffindor", "Slytherin"]
 ```
+
 - 请注意，我们可以保证我们将始终保持这些列表的顺序。第一个位置 students 的个人与 houses 列表第一个位置的房子相关联，依此类推。但是，随着我们列表的增加，这可能会变得非常麻烦！
 因此，我们可以用dict来改进我们的代码
+```python
 student={
     “Hermonie”：“Gryffindor”，
     "Harry": "Gryffindor",

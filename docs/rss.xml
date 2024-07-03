@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>凯尔的代码烹饪室</title><link>https://KKKadk.github.io/AD-forever.github.io</link><description>  编程不仅仅是一门技术，更是一种生活方式。让我们一起在这个充满无限可能的数字世界中，开启属于我们的奇幻冒险吧！</description><copyright>凯尔的代码烹饪室</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://s2.loli.net/2024/06/25/O4IvSmryKx8cXqT.jpg</url><title>avatar</title><link>https://KKKadk.github.io/AD-forever.github.io</link></image><lastBuildDate>Tue, 02 Jul 2024 16:17:31 +0000</lastBuildDate><managingEditor>凯尔的代码烹饪室</managingEditor><ttl>60</ttl><webMaster>凯尔的代码烹饪室</webMaster><item><title>CS50P 2 Loops</title><link>https://KKKadk.github.io/AD-forever.github.io/post/CS50P%202%20Loops.html</link><description>### Loops(循环）&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>凯尔的代码烹饪室</title><link>https://KKKadk.github.io/AD-forever.github.io</link><description>  编程不仅仅是一门技术，更是一种生活方式。让我们一起在这个充满无限可能的数字世界中，开启属于我们的奇幻冒险吧！</description><copyright>凯尔的代码烹饪室</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://s2.loli.net/2024/06/25/O4IvSmryKx8cXqT.jpg</url><title>avatar</title><link>https://KKKadk.github.io/AD-forever.github.io</link></image><lastBuildDate>Wed, 03 Jul 2024 05:50:52 +0000</lastBuildDate><managingEditor>凯尔的代码烹饪室</managingEditor><ttl>60</ttl><webMaster>凯尔的代码烹饪室</webMaster><item><title>CS50P 2 Loops</title><link>https://KKKadk.github.io/AD-forever.github.io/post/CS50P%202%20Loops.html</link><description>### Loops(循环）&#13;
 - 今天，我们来学习循环语句，简单来说就是一遍又一遍的做某一件事.&#13;
 比如如果我们想在屏幕上打印出三个猫叫的语句，我们可如下代码所示实现：&#13;
 ```python &#13;
@@ -111,11 +111,15 @@ for i in range(len(studens)):&#13;
 - 最后，我们来学习Dictionaries（dict，一种数据结构，允许我们将键与值相关联）&#13;
 - list 是多个值的列表，而dict 将键与值相关联&#13;
 &lt;img width='529' alt='屏幕截图 2024-07-02 235008' src='https://github.com/KKKadk/AD-forever.github.io/assets/162538427/1b940593-ccba-4ad3-83e8-587e24ac60d6'&gt;&#13;
+&#13;
+&#13;
+&#13;
 如这样一个表格，我们可以用list来实现：&#13;
 ```python &#13;
 students = ['Hermoine', 'Harry', 'Ron', 'Draco']&#13;
 houses = ['Gryffindor', 'Gryffindor', 'Griffindor', 'Slytherin']&#13;
 ```&#13;
+&#13;
 - 请注意，我们可以保证我们将始终保持这些列表的顺序。</description><guid isPermaLink="true">https://KKKadk.github.io/AD-forever.github.io/post/CS50P%202%20Loops.html</guid><pubDate>Tue, 02 Jul 2024 16:17:04 +0000</pubDate></item><item><title>CS50P 1 Conditionals</title><link>https://KKKadk.github.io/AD-forever.github.io/post/CS50P%201%20Conditionals.html</link><description>**Conditionals**&#13;
  - 今天我们来学习条件语句，通过条件语句我们可以让程序在根据某些条件来实现选择.&#13;
  - Python内置了一些提出数学问题的'运算符'.&#13;
