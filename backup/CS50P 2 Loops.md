@@ -146,15 +146,18 @@ for student in students:
 ```
 - 但如果我们有更多关于学生的信息的话，我们如何将其联系起来？
 <img width="545" alt="image" src="https://github.com/KKKadk/AD-forever.github.io/assets/162538427/71fac320-369e-46d5-90ce-2cdc5b22a23a">
+
+
 我们可将多个值与键相匹配，如：
 ```python 
-students= [
+     students= [
      {"name":"Hermonie","house":"Gryffindor","patrouns":"Otter"},
 {"name":"Harry","house":"Gryffindor","patrpus":"Stag”},
 {"name": "Ron", "house": "Gryffindor", "patronus": "Jack Russell terrier"},
     {"name": "Draco", "house": "Slytherin", "patronus": None},
 ]
 ```
+
 - 我们创建了关于"dict"的"list",并且我们可注意到"None"关键字表明，无值与键所对应.
 现在，我们可以联系起所有数据去改进我们代码为：
 ```python 
