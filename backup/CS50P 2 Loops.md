@@ -139,5 +139,67 @@ students={
 for student in students:
   print(student,students[student],sep=",")#用逗号隔开，更加的美观
 ```
-- 但如果我们有更多关于学生的信息的话，我们如何将其联系联系起来？
-- 
+- 但如果我们有更多关于学生的信息的话，我们如何将其联系起来？
+<img width="545" alt="image" src="https://github.com/KKKadk/AD-forever.github.io/assets/162538427/71fac320-369e-46d5-90ce-2cdc5b22a23a">
+我们可将多个值与键相匹配，如：
+```python 
+students= [
+     {"name":"Hermonie","house":"Gryffindor","patrouns":"Otter"},
+{"name":"Harry","house":"Gryffindor","patrpus":"Stag”},
+{"name": "Ron", "house": "Gryffindor", "patronus": "Jack Russell terrier"},
+    {"name": "Draco", "house": "Slytherin", "patronus": None},
+]
+```
+- 我们创建了关于"dict"的"list",并且我们可注意到"None"关键字表明，无值与键所对应.
+现在，我们可以联系起所有数据去改进我们代码为：
+```python 
+students = [
+    {"name": "Hermoine", "house": "Gryffindor", "patronus": "Otter"},
+    {"name": "Harry", "house": "Gryffindor", "patronus": "Stag"},
+    {"name": "Ron", "house": "Gryffindor", "patronus": "Jack Russell terrier"},
+    {"name": "Draco", "house": "Slytherin", "patronus": None},
+]
+
+for student in students:
+    print(student["name"], student["house"], student["patronus"], sep=", ")
+```
+接下来让我们以一个小的练习来首尾：
+![image](https://github.com/KKKadk/AD-forever.github.io/assets/162538427/8debbe0a-7284-49fd-a0ef-ae2277f30d2f)
+
+-如果我们想在屏幕上打印出类似超级马里奥这样的砖块，我们可写代码为：
+
+```python
+def main(3)
+    print_square(3)
+
+def print_square(size)
+    #打印出每一行
+   for i in range(size):
+    #打印出每一列
+       for j in range(size):
+    #打印出砖块
+          print("#",end="") 
+     #打印空白行
+     print()#参数为空时，打印空白行
+
+main()
+```
+- 整体代码逻辑就是：一个外循环，用于正方形中的每一行。然后，我们有一个内部循环，在每列中打印一块砖。最后，我们有一个打印空行 print 的语句。
+-当然，我们也可以换种方式来改写：
+```python 
+def main():
+    print_square(3)
+
+
+def print_square(size):
+    for i in range(size):
+        print_row(size)
+
+
+def print_row(width):
+    print("#" * width)
+
+
+main()
+```
+**啊哈！我们又在Python大陆上解锁了又一种能力，让我们在接下来的日子里继续带着热情去探索！**
